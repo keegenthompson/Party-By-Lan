@@ -1,4 +1,4 @@
-// jQuery Slick carousel
-// $(document).ready(function(){
-//     $('.single-item').slick();
-// });
+// jQuery
+$(document).ready(function(){
+    $("#myCarousel").carousel({interval: 3000});
+});

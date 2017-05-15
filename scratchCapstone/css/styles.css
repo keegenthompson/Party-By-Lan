@@ -1,7 +1,16 @@
+#logo {
+  max-width: 30%;
+  max-height: 30%;
+}
+
 .jumbotron {
-  height: 100vh;
+  height: 100;
 }
 img.item {
   width: 100vh;
   height: 100vh;
 }
+
+/** {
+  border: 1px solid red;
+}*/
