@@ -11,6 +11,28 @@ img.item {
   height: 100vh;
 }
 
+.thumbnails {
+  padding: 0px 10% 5% 10%;
+}
+
+footer {
+	background: #333;
+	color: #fff;
+	padding: 30px 0 20px 0;
+}
+
+footer li {
+	float: left;
+	padding: 0px 10px 0px 10px;
+	list-style: none;
+}
+footer a {
+	color: #fff;
+}
+
+footer p {
+	float: right;
+}
 /** {
   border: 1px solid red;
 }*/
