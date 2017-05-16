@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Ravi+Prakash');
+
+html {
+    min-height: 100%
+}
+
+#logo {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.jumbotron {
+    height: 100;
+}
+
+h1 {
+  text-align: center;
+}
+
+img.item {
+    width: 100vh;
+    height: 100vh;
+}
+
+img.thumbImg:hover /* fade out on hover */ {
+  opacity:0.3;
+}
+img.thumbImg + span /* hide spans immediately after images that are set to fade */ {
+  visibility:hidden;
+}
+img.thumbImg:hover + span /* display spans immediately after :hover faded images */ {
+  visibility: visible;
+}
+
+.thumbnails {
+    padding: 0px 10% 5% 10%;
+}
+
+.partyName {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  font-size: 36px;
+   color: white;
+   font-family: 'Ravi Prakash', cursive;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 0 20px 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer li {
+    float: left;
+    padding: 0px 10px 0px 10px;
+    list-style: none;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p {
+    float: right;
+}
+
+
+/** {
+  border: 1px solid red;
+}*/
