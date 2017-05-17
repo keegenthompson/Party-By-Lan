@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contactcss.css">
     <!-- jQuery -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <!-- JS Bootstrap -->
@@ -17,58 +18,116 @@
 </head>
 
 <body>
-<!-- NAVIGATION SECTION -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="row">
-                <div class="navbar-header col-sm-5">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                 <span class="sr-only">Toggle navigation</span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                   </button>
-                    <img src="images/logo.png" alt="logo" id="logo">
-                </div>  <!-- ./navbar-header -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <div class="row">
+              <div class="navbar-header col-sm-5">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+                 </button>
+                  <img src="images/logo.png" alt="logo" id="logo">
+              </div>  <!-- ./navbar-header -->
 
-                <div id="navbar" class="navbar-collapse collapse col-sm-7">
-                    <form class="navbar-form navbar-right">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li class="active"><a href="contact.html">Contact</a></li>
-                        </ul>
+              <div id="navbar" class="navbar-collapse collapse col-sm-7">
+                  <form class="navbar-form navbar-right">
+                      <ul class="nav navbar-nav">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About Us</a></li>
+                          <li class="active"><a href="contact.html">Contact</a></li>
 
-                        <div class="form-group">
-                            <input type="text" placeholder="Email" class="form-control">
-                        </div>
+                      </ul>
 
-                        <div class="form-group">
-                            <input type="password" placeholder="Password" class="form-control">
-                        </div>
-                        <button type="submit" class="btn btn-success">Sign in</button>
-                    </form>
-                </div>  <!-- ./navbar-collapse collapse -->
-            </div>  <!-- ./row -->
-        </div>  <!-- ./container -->
-    </nav>  <!-- ./nav -->
+                      <div class="form-group">
+                          <input type="text" placeholder="Email" class="form-control">
+                      </div>
 
-<!-- INSERT CONTENT HERE -->
+                      <div class="form-group">
+                          <input type="password" placeholder="Password" class="form-control">
+                      </div>
+                      <button type="submit" class="btn btn-success">Sign in</button>
+                  </form>
+              </div>  <!-- ./navbar-collapse collapse -->
+          </div>  <!-- ./row -->
+      </div>  <!-- ./container -->
+  </nav>  <!-- ./nav -->
 
-<!-- FOOTER SECTION-->
-    <footer>
-      <div class="container footer">
-        <div class="row">
-          <div class="col-md-8 col-xs-12">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<!-- contact form -->
+  <div class="container">
+      <div class="row">
+          <div class="col-md-8">
+              <div class="well well-sm">
+                  <form>
+                  <div id="orange" class="row">
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label for="name">
+                                  Name*</label>
+                              <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                          </div>
+                          <div class="form-group">
+                              <label for="email">
+                                  Email Address*</label>
+                              <div class="input-group">
+
+                                  <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                          </div>
+                          <div class="form-group">
+                            <label for="number">
+                                  Phone Number (optional)
+                            </label>
+                            <div class="input-group">
+                              <input type="text" name="form-control" id="number" placeholder="(000) 000-0000" >
+                            </div>
+                          </div>
+
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label for="name">
+                                  Message*</label>
+                              <textarea name="message" id="message" class="form-control" rows="10" cols="20" required="required"
+                                  placeholder="Enter message"></textarea>
+                          </div>
+                      </div>
+                      <div class="col-md-12">
+                          <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                              Send Message<span class="glyphicon glyphicon-chevron-right"></span></button>
+                      </div>
+                  </div>
+                  </form>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <form>
+              <legend><strong>Locate Us</strong><span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span></legend>
+
+              <address>
+                <div class="col-lg-6 col-sm-6 col-md-6 text-center">
+                  <img class="img-circle img-responsive img-center" src="images/westmec.jpg" alt="">
+              </div>
+              <div class="col-lg-6 col-sm-6 col-md-6 text-center">
+                <img class="img-circle img-responsive img-center" src="images/hours.jpg" alt="">
+            </div>
+
+              </address>
+
+            </form>
 
           </div>
 
-          <div class="col-md-4 col-xs-12 ">
-            <p>Copyright &#9400; 2017, All Rights Reserved, Parlan</p>
-          </div>
-        </div>
+
+
+
       </div>
-    </footer>
+  </div>
 </body>
 
 </html>
