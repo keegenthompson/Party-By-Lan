@@ -12,6 +12,9 @@ html {
 .jumbotron {
     height: 100;
 }
+#middle{
+  margin-top: 7%;
+}
 
 h1 {
   text-align: center;
