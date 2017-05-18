@@ -79,6 +79,11 @@ p{
 .text{
   margin-bottom:  20%;
 }
+#btn0{
+  width: 45%;
+  margin-right: 45%;
+  margin-left: 1%;
+}
 #btn1{
   margin-left: 35%;
 
