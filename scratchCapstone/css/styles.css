@@ -1,23 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Ravi+Prakash');
 
+/*General Overall Styles*/
 html {
     min-height: 100%
 }
 
+* {
+  font-family: Optima;
+}
+
+h1 {
+  text-align: center;
+}
+
+p{
+  font-size: 1.5em;
+  text-indent: 50px;
+  text-overflow: ellipsis;
+}
+
+/*Nav Styles*/
 #logo {
     max-width: 30%;
     max-height: 30%;
 }
 
-.jumbotron {
-    height: 100;
-}
-#middle{
-  margin-top: 7%;
+.navbar-fixed-top {
+  position: inherit;
 }
 
-h1 {
-  text-align: center;
+#indexNav {
+  position: fixed;
+}
+
+/*Carousel Styles*/
+.jumbotron {
+    height: 100%;
 }
 
 img.item {
@@ -25,16 +43,7 @@ img.item {
     height: 100vh;
 }
 
-img.thumbImg:hover /* fade out on hover */ {
-  opacity:0.3;
-}
-img.thumbImg + span /* hide spans immediately after images that are set to fade */ {
-  visibility:hidden;
-}
-img.thumbImg:hover + span /* display spans immediately after :hover faded images */ {
-  visibility: visible;
-}
-
+/*Thumbnail Images styles*/
 .thumbnails {
     padding: 0px 10% 5% 10%;
 }
@@ -48,6 +57,40 @@ img.thumbImg:hover + span /* display spans immediately after :hover faded images
    font-family: 'Ravi Prakash', cursive;
 }
 
+/*About Page Styles*/
+.text{
+  margin-bottom:  20%;
+}
+
+#demo {
+	width: 100%;
+	padding: 3px;
+	border: 1px solid #ccc;
+}
+
+#btn1{
+  margin-left: 35%;
+
+}
+#btn2{
+  margin-left: 1;
+
+}
+#btn3{
+  margin-left: 1%;
+
+}
+#btn4{
+  margin-left: 1%;
+
+}
+
+/*Contact Form styles*/
+#middle{
+  margin-top: 7%;
+}
+
+/*Footer Styles*/
 footer {
     background: #333;
     color: #fff;
@@ -68,43 +111,11 @@ footer a {
 
 footer p {
     float: right;
+    text-indent: 0px;
+    font-size: 1.2em;
 }
 
-p{
-  font-size: 1.5em;
-  text-indent: 50px;
-  text-overflow: ellipsis;
-}
-
-.text{
-  margin-bottom:  20%;
-}
-#btn0{
-  width: 45%;
-  margin-right: 45%;
-  margin-left: 1%;
-}
-#btn1{
-  margin-left: 35%;
-
-}
-#btn2{
-  margin-left: 1;
-
-}
-#btn3{
-  margin-left: 1%;
-
-}
-#btn4{
-  margin-left: 1%;
-
-}
-img.demo {
-	width: 100%;
-	padding: 3px;
-	border: 1px solid #ccc;
-}
+/*For Debugging Purposes*/
 /** {
   border: 1px solid red;
 }*/

@@ -18,121 +18,109 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-              <div class="row">
-                  <div class="navbar-header col-sm-4 col-md-4">
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                   <span class="sr-only">Toggle navigation</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                 </button>
-                      <img src="images/logo.png" alt="logo" id="logo">
-                  </div>  <!-- ./navbar-header -->
+<!-- NAVIGATION SECTION -->
+  <nav class="navbar navbar-default navbar-fixed-top" id="indexNav">
+      <div class="container">
+          <div class="row">
+              <div class="navbar-header col-sm-12 col-md-4">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                  </button>
+                  <img src="images/logo.png" alt="logo" id="logo">
+              </div>  <!-- ./navbar-header -->
 
-                  <div id="navbar" class="navbar-collapse collapse col-sm-8 col-md-8">
-                      <form class="navbar-form navbar-right">
-                          <ul class="nav navbar-nav">
-                              <li><a href="index.html">Home</a></li>
-                              <li><a href="about.html">About Us</a></li>
-                              <li><a href="products_page.html">Products</a></li>
-                              <li class="active"><a href="contact.html">Contact</a></li>
-                          </ul>
-
-                          <div class="form-group">
-                              <input type="text" placeholder="Email" class="form-control">
-                          </div>
-
-                          <div class="form-group">
-                              <input type="password" placeholder="Password" class="form-control">
-                          </div>
-                          <button type="submit" class="btn btn-success">Sign in</button>
-                      </form>
-                  </div>  <!-- ./navbar-collapse collapse -->
-              </div>  <!-- ./row -->
-          </div>  <!-- ./container -->
-      </nav>
-
-
-  <!-- <br>
-  <br>
-  <br>
-  <br>
-  <br> -->
-<!-- contact form -->
-<section id="middle">
-
-  <div class="container">
-      <div class="row">
-          <div class="col-md-8">
-              <div class="well well-sm">
-                  <form>
-                  <div id="orange" class="row">
-                      <div class="col-md-6">
-                          <div class="form-group">
-                              <label for="name">
-                                  Name*</label>
-                              <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
-                          </div>
-                          <div class="form-group">
-                              <label for="email">
-                                  Email Address*</label>
-                              <div class="input-group">
-
-                                  <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
-                          </div>
-                          <div class="form-group">
-                            <label for="number">
-                                  Phone Number (optional)
-                            </label>
-                            <div class="input-group">
-                              <input type="text" name="form-control" id="number" placeholder=" (000) 000-0000" >
-                            </div>
-                          </div>
-
+  <!-- Nav Buttons -->
+              <div id="navbar" class="navbar-collapse collapse col-sm-12 col-md-8">
+                  <form class="navbar-form navbar-right">
+                      <ul class="nav navbar-nav">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About Us</a></li>
+                          <li><a href="products_page.html">Products</a></li>
+                          <li class="active"><a href="contact.html">Contact</a></li>
+                      </ul>
+  <!-- Sign-in Section -->
+                      <div class="form-group">
+                          <input type="text" placeholder="Email" class="form-control">
                       </div>
-                      <div class="col-md-6">
-                          <div class="form-group">
-                              <label for="name">
-                                  Message*</label>
-                              <textarea name="message" id="message" class="form-control" rows="10" cols="20" required="required"
-                                  placeholder="Enter message"></textarea>
-                          </div>
+
+                      <div class="form-group">
+                          <input type="password" placeholder="Password" class="form-control">
                       </div>
-                      <div class="col-md-12">
-                          <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                              Send Message<span class="glyphicon glyphicon-chevron-right"></span></button>
-                      </div>
-                  </div>
+                      <button type="submit" class="btn btn-success">Sign in</button>
                   </form>
-              </div>
-          </div>
-          <div class="col-md-4">
-            <form>
-              <legend><strong>Locate Us</strong><span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span></legend>
+              </div>  <!-- ./navbar-collapse collapse -->
+          </div>  <!-- ./row -->
+      </div>  <!-- ./container -->
+  </nav>
 
+<!-- CONTACT FORM -->
+  <section id="middle">
+    <div class="container col-md-12">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="well well-sm">
+            <form>
+              <div id="orange" class="row">
+                <div class="col-md-6">
+    <!-- Input Name -->
+                  <div class="form-group">
+                    <label for="name">Name*</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                  </div>
+    <!-- Input Email -->
+                  <div class="form-group">
+                    <label for="email">Email Address*</label>
+                    <div class="input-group">
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                    </div>
+                  </div>
+    <!-- Input Phone # -->
+                  <div class="form-group">
+                    <label for="number">Phone Number (optional)</label>
+                    <div class="input-group">
+                      <input type="text" name="form-control" id="number" placeholder=" (000) 000-0000">
+                    </div>
+                  </div>  <!-- ./form-group -->
+                </div>  <!-- ./col-md-6 -->
+
+                <div class="col-md-6">
+    <!-- Input Message -->
+                  <div class="form-group">
+                    <label for="name">Message*</label>
+                    <textarea name="message" id="message" class="form-control" rows="10" cols="20" required="required" placeholder="Enter message"></textarea>
+                  </div>  <!-- ./form-group -->
+                </div>  <!-- ./col-md-6 -->
+    <!-- Button to send message -->
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">Send Message<span class="glyphicon glyphicon-chevron-right"></span></button>
+                </div>
+              </div>  <!-- ./row -->
+            </form>
+          </div>  <!-- ./well well-sm -->
+        </div>  <!-- ./col-md-8 -->
+
+<!-- LOCATE US SECTION -->
+        <div class="col-md-4">
+          <form>
+            <legend><strong>Locate Us</strong><span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span></legend>
               <address>
+                <!-- Address Pic -->
                 <div class="col-lg-6 col-sm-6 col-md-6 text-center">
                   <img class="img-circle img-responsive img-center" src="images/westmec.jpg" alt="">
-              </div>
-              <div class="col-lg-6 col-sm-6 col-md-6 text-center">
-                <img class="img-circle img-responsive img-center" src="images/hours.jpg" alt="">
-            </div>
-
+                </div>
+                <!-- Hours & phone # -->
+                <div class="col-lg-6 col-sm-6 col-md-6 text-center">
+                  <img class="img-circle img-responsive img-center" src="images/hours.jpg" alt="">
+                </div>
               </address>
-
             </form>
-
-          </div>
-
-
-
-
-      </div>
-  </div>
-</section>
-</body>
-
+          </div>  <!-- ./col-md-4 -->
+        </div>  <!-- ./row -->
+      </div>  <!-- ./container col-md-12 -->
+    </section>
+  </body>
 </html>
