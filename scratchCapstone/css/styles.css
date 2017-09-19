@@ -48,12 +48,16 @@ img.item {
     padding: 0px 10% 5% 10%;
 }
 
+/*.thumbImg:hover {
+  opacity: 0.2;
+}*/
+
 .partyName {
   position: absolute;
   top: 60%;
   left: 20%;
   font-size: 36px;
-   color: white;
+   color: black;
    font-family: 'Ravi Prakash', cursive;
 }
 
