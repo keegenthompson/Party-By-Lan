@@ -3,6 +3,7 @@ $(document).ready(function(){
     $("#myCarousel").carousel({interval: 3000}); // change image every 3 seconds
 });
 
+/* IJPB 9.18.17 - fixed bug by removing broken jQuery code and replacing it with the function below */
 /* Have the party name appear when the thumbnail image is hovered over */
 function fade(evt) {
   var target = evt.srcElement.id.split(" "); // Get id from whichever thumbImg triggered the event and split it so "pic #" -> "pic", "#"
