@@ -48,9 +48,9 @@ img.item {
     padding: 0px 10% 5% 10%;
 }
 
-/*.thumbImg:hover {
+.thumbImg:hover {
   opacity: 0.2;
-}*/
+}
 
 .partyName {
   position: absolute;
@@ -59,6 +59,10 @@ img.item {
   font-size: 36px;
    color: black;
    font-family: 'Ravi Prakash', cursive;
+}
+
+.partyName:hover {
+  text-shadow: 0 0 3px #fff;
 }
 
 /*About Page Styles*/
